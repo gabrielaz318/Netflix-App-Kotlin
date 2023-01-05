@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         for (j in 0 until 10) {
             val movies = mutableListOf<Movie>()
             for(i in 0 until 15) {
-                val movie = Movie(R.drawable.movie_4)
+                val movie = Movie(R.drawable.movie)
                 movies.add(movie)
             }
             val category = Category("Categoria $j", movies)
